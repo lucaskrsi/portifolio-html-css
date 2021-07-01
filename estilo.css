@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+a{
+    color: var(--branco);
+}
+
+header{
+    background-color: var(--centaurea);
+    height: 8vh; /*altura responsiva do "header"*/
+}
+
+nav{
+    display: flex; /*alinha os itens html, o primeiro item fica à esquerda e os próximos se alinham à direita desse*/
+    justify-content: space-between; /*Cria um espaço entre os elementos do "nav"*/
+    height: 8vh;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 5px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    line-height: 6.5vh;
+    transition: .6s;
+}
+
+.logo:hover{
+    color: var(--vermelho);
+    transition: step-start;
+    transition: .8s;
+}
+
+.menu{
+    list-style: none;
+    display: flex; /*alinha os itens da "ul" no padrão flex*/
+}
+
+.menu li{
+    letter-spacing: 3px; /*Adiciona espaço entre as letras dos conteúdos dentro das "li"*/
+    margin-left: 32px;
+}
+
+.menu li a{
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 8vh;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li:last-child a{ /*Altera somente o ultimo filho do "li" que seja um "a"*/
+    background-color: var(--vermelho);
+    border-radius: 5%;
+    transition: 0.6s; /*Animação de transição de saída*/
+}
+
+.menu li:last-child a:hover{ /*O hover define o que acontecerá quando o cursor estiver sobre o elemento*/
+    background-color: var(--vermelho_escuro);
+    transition: 0.8s; /*Animação de transição de entrada*/
+}
