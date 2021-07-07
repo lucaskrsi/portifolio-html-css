@@ -1,11 +1,11 @@
 .logo{
     font-family: 'Montserrat Alternates', sans-serif;
-    margin: 5px;
+    margin: 0 5px;
     font-size: 20px;
     color: var(--branco);
     text-decoration: none;
     letter-spacing: 3px;
-    line-height: 39px;
+    line-height: 50px;
     transition: .6s;
 }
 
