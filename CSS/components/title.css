@@ -1,0 +1,5 @@
+.title{
+    color: var(--branco);
+    font-size: 3em;
+    text-shadow: 3px 3px 0 var(--vermelho_escuro);
+}

@@ -1,0 +1,12 @@
+.box{
+    display: inline-block;
+    background-color: var(--centaurea_claro);
+    padding: 50px 40PX;
+    text-align: center;
+    box-shadow: 8px 8px 0 var(--sombra);
+    margin-top: 30px;
+}
+
+.box .title{
+    margin-bottom: 20px;
+}

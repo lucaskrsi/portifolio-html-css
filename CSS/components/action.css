@@ -1,0 +1,9 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    color: var(--branco);
+    padding: 2px 5px;
+    text-decoration: none;
+    letter-spacing: 3px; /*Adiciona espaço entre as letras dos conteúdos dentro das "li"*/
+    margin-right: 30px;
+}

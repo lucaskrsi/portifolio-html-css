@@ -1,0 +1,5 @@
+.subtitle{
+    color: var(--branco);
+    font-size: 1.4em;
+    text-shadow: 3px 3px 0 var(--preto);   
+}

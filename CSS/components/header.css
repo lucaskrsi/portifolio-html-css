@@ -1,0 +1,8 @@
+.header{
+    display: flex; /*alinha os itens html, o primeiro item fica à esquerda e os próximos se alinham à direita desse*/
+    background-color: var(--centaurea);
+    height: 50px; /*altura responsiva do "header"*/
+    padding: 10px 20px;
+    border-bottom: 10px solid var(--preto);
+    justify-content: space-between; /*Cria um espaço entre os elementos do "nav"*/
+}
