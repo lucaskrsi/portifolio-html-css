@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="CSS/components/section.css">
     <link rel="stylesheet" href="CSS/components/skill.css">
     <link rel="stylesheet" href="CSS/components/progress-bar.css">
+    <link rel="stylesheet" href="CSS/components/wrapper-flex.css">
+    <link rel="stylesheet" href="CSS/components/paragrafo.css">
 </head>
 
 <body>
@@ -52,13 +54,44 @@
     </section>
     <section class="section">
         <h2 class="subtitle -first" lang="en">Skills</h2>
-        <article class="skill">
-            <img class="s-icon" src="/Images/ico_html5.png" alt="html5">
-            <div class="s-flex-collum">
-                <h3 class="s-title">HTML</h3>
-                <progress class="progress-bar" value="60" max="100">60%</progress>
-            </div>
-        </article>
+        <div class="wrapper-flex">
+            <article class="skill">
+                <img class="s-icon" src="/Images/ico_html5.png" alt="html5">
+                <div class="s-flex-collum">
+                    <h3 class="s-title">HTML 5</h3>
+                    <progress class="progress-bar" value="80" max="100">80%</progress>
+                </div>
+            </article>
+            <article class="skill">
+                <img class="s-icon" src="/Images/ico_css3.png" alt="css3">
+                <div class="s-flex-collum">
+                    <h3 class="s-title">CSS 3</h3>
+                    <progress class="progress-bar" value="60" max="100">60%</progress>
+                </div>
+            </article>
+            <article class="skill">
+                <img class="s-icon" src="/Images/ico_js.png" alt="js">
+                <div class="s-flex-collum">
+                    <h3 class="s-title">Javascript</h3>
+                    <progress class="progress-bar" value="20" max="100">20%</progress>
+                </div>
+            </article>
+            <article class="skill">
+                <img class="s-icon" src="/Images/ico_react.png" alt="react">
+                <div class="s-flex-collum">
+                    <h3 class="s-title">React</h3>
+                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="section -first">
+        <h2 class="subtitle -first">Sobre</h2>
+        <div class="wrapper-flex -first">
+            <p class="paragrafo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa sint odit molestiae, autem a ducimus recusandae sunt nobis repellendus quam quae aliquid explicabo. Excepturi nesciunt aliquam neque quae pariatur culpa.
+            </p>
+        </div>
     </section>
 </body>
 </html>

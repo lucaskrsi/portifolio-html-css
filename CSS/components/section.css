@@ -1,6 +1,10 @@
 .section{
-    background-color: var(--azul_marinho);
+    background: linear-gradient(#e36, #919);
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid (--sombra);
+    border-bottom: 10px solid var(--preto);
+}
+
+.section.-first{
+    background: linear-gradient(#020024, #00d4ff);
 }

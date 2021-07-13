@@ -1,0 +1,12 @@
+.wrapper-flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.wrapper-flex.-first{
+    max-width: 800px;
+}

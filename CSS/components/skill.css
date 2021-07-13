@@ -1,15 +1,19 @@
 .skill{
     display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .skill .s-title{
     font-size: 1.3em;
     color: var(--branco);
+    margin-bottom: 15px;
 }
 
 .skill .s-icon{
     margin-right: 20px;
-    height: 60px;
+    height: 80px;
+    width: 80px;
 }
 
 .skill .s-flex-collum{
