@@ -3,3 +3,10 @@
     font-size: 1.4em;
     text-shadow: 3px 3px 0 var(--preto);   
 }
+
+.subtitle.-first{
+    text-shadow: none;
+    text-align: center;
+    text-shadow: none;
+    font-size: 4em;
+}

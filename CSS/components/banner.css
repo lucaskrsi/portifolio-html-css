@@ -2,11 +2,11 @@
     box-sizing: border-box;
     background-image: url(../../Images/background1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 550px;
-    border-bottom: 10px solid var(--preto);
     padding-top: 80px;
     padding-left: 80px;
+    border-bottom: 10px solid var(--preto);
 }
 
 .banner .wrapper{

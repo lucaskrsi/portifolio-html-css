@@ -1,0 +1,6 @@
+.section{
+    background-color: var(--azul_marinho);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid (--sombra);
+}

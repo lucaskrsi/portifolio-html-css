@@ -1,3 +1,6 @@
+/* Todos as classes componentes terão seus nomes simples */
+/* As classes dependentes de elementos ou em contexto próprio terão o prefixo "s-" */
+
 *body{
     font-family: 'Roboto', sans-serif;
 }

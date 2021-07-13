@@ -1,0 +1,19 @@
+.skill{
+    display: flex;
+}
+
+.skill .s-title{
+    font-size: 1.3em;
+    color: var(--branco);
+}
+
+.skill .s-icon{
+    margin-right: 20px;
+    height: 60px;
+}
+
+.skill .s-flex-collum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
