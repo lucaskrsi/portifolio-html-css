@@ -1,10 +1,18 @@
 .section{
-    background: linear-gradient(#e36, #919);
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid var(--preto);
 }
 
 .section.-first{
-    background: linear-gradient(#020024, #00d4ff);
+    background: linear-gradient(#919, #e36);
 }
+
+.section.-second{
+    background: linear-gradient(#070344, #00d4ff);
+}
+
+.section.-third{
+    background-color: var(--centaurea_claro);
+}
+

@@ -2,7 +2,9 @@
     display: inline-block;
     background-color: var(--vermelho);
     box-shadow: 5px 5px 0px var(--preto);
-    border-radius: 5%;
+    border-radius: 5px;
+    border: 2px solid var(--sombra);
+    box-sizing: border-box;
     padding: 18px 20px;
     text-decoration: none;
     transition: 0.6s;
@@ -12,4 +14,8 @@
 .button:hover{ 
     background-color: var(--vermelho_escuro);
     transition: 0.8s;
+}
+
+.button.-first{
+    width: 100%;
 }

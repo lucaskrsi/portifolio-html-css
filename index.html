@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="CSS/components/progress-bar.css">
     <link rel="stylesheet" href="CSS/components/wrapper-flex.css">
     <link rel="stylesheet" href="CSS/components/paragrafo.css">
+    <link rel="stylesheet" href="CSS/components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/components/form.css">
 </head>
 
 <body>
@@ -52,7 +54,7 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section -first">
         <h2 class="subtitle -first" lang="en">Skills</h2>
         <div class="wrapper-flex">
             <article class="skill">
@@ -80,18 +82,39 @@
                 <img class="s-icon" src="/Images/ico_react.png" alt="react">
                 <div class="s-flex-collum">
                     <h3 class="s-title">React</h3>
-                    <progress class="progress-bar" value="10" max="100">10%</progress>
+                    <progress class="progress-bar" value="5" max="100">5%</progress>
                 </div>
             </article>
         </div>
     </section>
-    <section class="section -first">
+    <section class="section -second">
         <h2 class="subtitle -first">Sobre</h2>
         <div class="wrapper-flex -first">
-            <p class="paragrafo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa sint odit molestiae, autem a ducimus recusandae sunt nobis repellendus quam quae aliquid explicabo. Excepturi nesciunt aliquam neque quae pariatur culpa.
+            <!--<button class="button-arrow -left"><span class="hidden-content">Anterior</span></button>
+            <button class="button-arrow -right"><span class="hidden-content">Próximo</span></button>-->
+            <p class="paragrafo box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa sint odit molestiae, autem a ducimus recusandae sunt nobis repellendus quam quae aliquid explicabo. Excepturi nesciunt aliquam neque quae pariatur culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat facilis quam iste omnis molestias incidunt! Consequuntur rerum qui laudantium possimus? Asperiores, reprehenderit dolorum nemo fugiat modi voluptates vel quibusdam.
+                Officia suscipit possimus ullam. Quod odio nobis, cumque architecto quia nemo rerum corporis ex incidunt molestiae cum molestias? Similique sint mollitia quasi quidem, ducimus nisi vitae ad ipsum possimus exercitationem.
+                Veniam sequi adipisci minus fugiat hic voluptate perferendis doloribus exercitationem provident, consequuntur tenetur tempora iusto beatae ab pariatur unde accusantium corrupti rerum! Provident ex veniam placeat accusantium aliquam aspernatur iusto?
+                A natus ullam eaque quia nesciunt molestias mollitia iure repellat itaque, odit iusto reiciendis velit labore consectetur tempore ducimus quisquam deserunt harum delectus rerum veniam deleniti placeat sed ea. Odit.
+                Reprehenderit, repudiandae? Modi recusandae soluta distinctio laboriosam maiores quas hic. Explicabo quidem at minima, delectus tenetur enim. Rem necessitatibus ad dignissimos, suscipit accusantium voluptatum quo alias. Excepturi rem voluptatibus dolorem.
             </p>
         </div>
     </section>
+    <section class="section -third">
+        <h2 class="subtitle -first">Contato</h2>
+        <form action="" class="form">
+            <label for="nome" class="s-label">Nome:</label>
+            <input type="text" value="Nome" id="nome" class="s-input">
+            <label for="email" class="s-label">Email:</label>
+            <input type="text" value="Email" id="email" class="s-input">
+            <label for="message" class="s-label">Mensagem:</label>
+            <textarea name="" id="message" class="s-input -textarea">Digite aqui sua mensagem!</textarea>
+            <button class="button -first" type="submit" value="Enviar">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        
+    </footer>
 </body>
 </html>
