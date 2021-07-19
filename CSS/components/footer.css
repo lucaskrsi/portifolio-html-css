@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: var(--preto);
+    padding: 20px;
+    justify-content: center;
+}
+
+.footer .s-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    padding: 0 25px;
+    text-decoration: none;
+    transform: translateX(-20%);
+
+}
+
+.footer .s-icon{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
